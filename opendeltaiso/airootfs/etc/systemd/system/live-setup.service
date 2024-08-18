@@ -1,0 +1,11 @@
+[Unit]
+Description=Live Environment Setup
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/etc/live-setup.sh
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target

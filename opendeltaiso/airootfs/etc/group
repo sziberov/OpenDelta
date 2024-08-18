@@ -1,2 +1,6 @@
 root:x:0:root
 autologin:x:961:root
+adm:x:4:live
+wheel:x:10:live
+uucp:x:14:live
+live:x:1000:

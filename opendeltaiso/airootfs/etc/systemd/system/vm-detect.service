@@ -1,0 +1,11 @@
+[Unit]
+Description=Detect Virtualization Platform and Load Guest Modules
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/etc/vm-detect.sh
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
