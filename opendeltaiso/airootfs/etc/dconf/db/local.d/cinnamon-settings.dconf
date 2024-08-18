@@ -1,0 +1,9 @@
+[org/cinnamon/desktop/background]
+picture-uri='file:///usr/share/backgrounds/opendelta/wp_1.png'
+picture-options='stretch'
+[org/nemo/desktop]
+computer-icon-visible=true
+home-icon-visible=true
+[org/nemo/preferences]
+show-hidden-files=true
+treat-root-as-normal=true
